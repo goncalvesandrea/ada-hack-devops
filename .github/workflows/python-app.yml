@@ -44,8 +44,8 @@ jobs:
         
     - name: Build and Push Docker Image with Docker Compose
       run: |
-        docker build -t nglai/adahack .
-        docker push nglai/adahack
+        docker build -t andrea/adahack .
+        docker push andrea/adahack
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v4
